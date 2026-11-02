@@ -5,12 +5,10 @@ body{
     color :aliceblue;
 
 
-
 /*uvoddni strana*/
 }
 
 #nav h1{
-
     padding-right: 45px;
     padding-top:3px;
     font-size: 35px;
@@ -30,13 +28,21 @@ body{
 
 }
 
+#nav img {
+    margin:20px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-right: 1111px;
+    margin-left: 40px;
+}
+
 .oddeleni hr{
     border: 2px solid rgb(173, 160, 82);
 }
 
 #nadpis h1 {
     text-align: center;
-    font-size: 85px;
+    font-size: 90px;
     margin-bottom: 1px;
     color:rgb(173, 160, 82);
     
@@ -45,13 +51,14 @@ body{
 #podnadpis {
     text-align: center;
     margin-top:0;
+    font-size: 20px;
 }
 
 #menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 30px;          /*AI doplnil*/
 
 }
 
@@ -79,21 +86,14 @@ body{
     transition: 1ms;    
 }
 
-#nav img {
-    margin:20px;
-    object-fit: contain;
-    border-radius: 5px;
-    margin-right: 897px;
-    margin-left: 40px;
 
-}
 
 
 /*menu strana*/
 #bg{
     position: fixed;
     inset: 0;
-    z-index: -1;
+    z-index: -1;        /*pomoci AI*/
 }
 
 #bg img{
@@ -102,23 +102,9 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(33%);
+    filter: brightness(33%);  /*pomoci AI*/
 }
-
-#bg2{
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-}
-#bg2 img{
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(53%);
-}
-
+    
 #nadpis2 h1 {
     text-align: center;
     font-size: 60px;
@@ -127,7 +113,7 @@ body{
     
 }
 .hlv p{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.75);    /*pomoci AI*/
     padding: 19px;
     margin: 20px 0;
     border-radius: 8px;
@@ -137,9 +123,9 @@ body{
 .hlv{
     width: 90%;
     max-width: 700px;
-    margin-left: 100px;
+    margin-left: 150px;
     text-align: center;
-    color:rgb(200, 200, 200);
+    color:rgb(200, 200, 200);        /*AI doplnil*/
     
 }
 
@@ -158,7 +144,7 @@ body{
 
 }
 .reze iframe{
-    margin-left: 558px;
+    margin-left: 650px;
     filter: brightness(80%);
     border:5px solid black;
     border-radius: 8px;
@@ -166,22 +152,35 @@ body{
 
 
 /*kontaktni strana*/
+#bg2{
+    position: fixed;
+    inset: 0;
+    z-index: -1;          /*pomoci AI*/
+}
+
+#bg2 img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(53%);      /*pomoci AI*/
+}
+
 #cely{
     display: flex;
     align-items: center;   
-    color:rgb(200, 200, 200);
+    color:rgb(200, 200, 200);    
+    font-size: 30px;
 }
 
 .kon p{
-    font-size: 25px;
     padding-right:120px;
     color:rgb(200, 200, 200);
     margin-left:430px;
 }
 
 .kon2{
-    font-size:25px;
     color:rgb(200, 200, 200);
 }
-
 
