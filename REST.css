@@ -3,46 +3,46 @@ body{
     margin:0;
     padding:0;
     color :aliceblue;
-
-
-/*uvoddni strana*/
 }
-
-#nav h1{
-    padding-right: 45px;
-    padding-top:3px;
-    font-size: 35px;
-    text-decoration: none;
-    color:aliceblue;
-    display: inline-block;
-}  
 
 #nav {
+    padding:20px;
+    border-radius: 50px;
+    max-width: 100000px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-#nav .potrh h1{
-    text-decoration:5px underline rgb(173, 160, 82) ;
+#nav a{
+    text-decoration: none;
+    font-size: 35px;
+    color:aliceblue;
+    display: inline-block;
+    margin-left: 65px;
+}
 
+#potrh p{
+    text-decoration:5px underline rgb(173, 160, 82) ;
 }
 
 #nav img {
-    margin:20px;
-    object-fit: contain;
     border-radius: 5px;
-    margin-right: 1111px;
-    margin-left: 40px;
 }
 
 .oddeleni hr{
     border: 2px solid rgb(173, 160, 82);
 }
 
+.dolni-oddeleni hr{
+    border: 2px solid rgb(173, 160, 82);
+
+}
+
 #nadpis h1 {
     text-align: center;
     font-size: 90px;
+    margin-top: 150px;
     margin-bottom: 1px;
     color:rgb(173, 160, 82);
     
@@ -92,6 +92,8 @@ body{
     font-size: 20px;
     color:rgb(200, 200, 200);
     justify-content: center;
+    border-top: 3px solid rgb(205, 193, 125);
+    margin-top: 250px;
 }
 
 #foter p{
@@ -109,6 +111,7 @@ body{
 
 #foter a{
     text-decoration: none;
+
 }
 
 
@@ -140,20 +143,23 @@ body{
 .hlv p{
     background-color: rgba(0, 0, 0, 0.75);    /*pomoci AI*/
     padding: 19px;
+
     margin: 20px 0;
     border-radius: 8px;
     font-size: 22px;
 }
    
 .hlv{
-    width: 90%;
-    max-width: 700px;
-    margin-left: 150px;
+    max-width: 1000px;
     text-align: center;
-    color:rgb(200, 200, 200);        /*AI doplnil*/
-    
+    color:rgb(200, 200, 200);
 }
-
+#cely{
+    display: flex;      
+    font-size: 30px;
+    justify-content: center;
+    gap:40px;
+}
 .hlv a{
     color:rgb(173, 160, 82);
     font-size: 25px;
@@ -168,12 +174,22 @@ body{
     font-family: arial;
 
 }
-.reze iframe{
-    margin-left: 650px;
+
+#frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
     filter: brightness(80%);
     border:5px solid black;
     border-radius: 8px;
+    justify-content: center;
+    display: flex;
+
 }
+
 
 
 /*kontaktni strana*/
@@ -192,17 +208,11 @@ body{
     filter: brightness(53%);      /*pomoci AI*/
 }
 
-#cely{
-    display: flex;
-    align-items: center;   
-    color:rgb(200, 200, 200);    
-    font-size: 30px;
-}
+
 
 .kon p{
-    padding-right:120px;
+    gap:100px;
     color:rgb(200, 200, 200);
-    margin-left:430px;
 }
 
 .kon2{
