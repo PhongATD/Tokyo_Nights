@@ -93,19 +93,6 @@ footer {
     gap: 10px;
 }
 
-
-
-#foter img{
-    border-radius: 5px;
-    text-decoration: none;  
-    padding:2px 
-}
-
-
-
-
-
-/*menu strana*/
 #bg{
     position: fixed;
     inset: 0;
@@ -131,8 +118,7 @@ footer {
 .hlv p{
     background-color: rgba(0, 0, 0, 0.75);   
     padding: 19px;
-
-    margin: 20px 0;
+    margin: 20px;
     border-radius: 8px;
     font-size: 22px;
 }
@@ -154,7 +140,6 @@ footer {
 }
 
 
-/*rezervacni strana*/
 .reze p{
     font-size: 25px;
     text-align: center;
@@ -179,8 +164,6 @@ iframe{
 }
 
 
-
-/*kontaktni strana*/
 #bg2{
     position: fixed;
     inset: 0;
